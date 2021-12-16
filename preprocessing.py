@@ -24,7 +24,7 @@ def preprocess(fin: str, fout: str) -> None:
     
     @output: csv of Question | Positive Answer | Context | Big Context pairs
     '''
-    with open(fin, 'r') as fi, open(fout, 'w') as fo:
+    with open(fin, 'r') as fi, open(fout, 'w+') as fo:
         data = json.load(fi)['data']
         out =  csv.writer(fo)
         for topic in progress(data):
