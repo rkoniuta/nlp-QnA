@@ -1,13 +1,13 @@
 clone: git clone https://github.com/rkoniuta/nlp-proj
 
-Enviroment:
-sentence-transformers==2.1.0
-torch==1.9.0
-nltk==3.4.5
-scipy==1.5.2
+conda create -n e python==3.8.5
+
+conda activate e
+
+pip install -r requirements.txt
 
 
-Data processing (!NOTE: please run this before running anything else!!)
+Data processing (!NOTE: please run this before running anything farther down!!!!)
 
 approximate time: 1-2 minutes
 
