@@ -5,7 +5,7 @@ nltk==3.4.5
 scipy==1.5.2
 
 
-Data processing:
+Data processing (!NOTE: please run this before running anything else!!)
 
 approximate time: 1-2 minutes
 
