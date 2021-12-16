@@ -1,3 +1,5 @@
+clone: git clone https://github.com/rkoniuta/nlp-proj
+
 Enviroment:
 sentence-transformers==2.1.0
 torch==1.9.0
